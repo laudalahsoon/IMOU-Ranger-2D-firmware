@@ -23,6 +23,13 @@ Few months ago, I bought a new IMOU IP camera, and proceeded as follows-
 
                      THIS IS A SMALL STEP
 
+ After extracting the zip file, I
+ found that the firmware is divided into several image files in partitions like "kernel", "boot" etc
+ and along with these there is a file which is a shell script to flash these image files to respective partitions
+
+ I have uploaded all the other files after extraxting the zip file which can be further unpacked by utilitues like 'unsquashfs' to unpack the squashfs linux file system. 
+
+ 
    I am not a pro-hacker but I strive to be one, I have just taken the ONE step which was not taken
    when I encountered my problem with this chinese camera.
 
